@@ -2,8 +2,8 @@ GPU_IDS=$1
 
 DATAROOT=./datasets/MonashCrack
 NAME=monashcrack
-MODEL=monashcrack
-DATASET_MODE=monashcrack
+MODEL=deepcrack
+DATASET_MODE=deepcrack
 
 BATCH_SIZE=1
 NUM_CLASSES=1
