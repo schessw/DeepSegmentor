@@ -34,6 +34,9 @@ def cal_prf_metrics(pred_list, gt_list, thresh_step=0.01):
         r_acc = tp/(tp+fn)
         # calculate f-score
         final_accuracy_all.append([thresh, p_acc, r_acc, 2*p_acc*r_acc/(p_acc+r_acc)])
+    
+    print(final_accuracy_all)
+    
     return final_accuracy_all
 
 def get_statistics(pred, gt):
