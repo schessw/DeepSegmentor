@@ -40,9 +40,9 @@ def cal_prf_metrics(pred_list, gt_list, thresh_step=0.01):
     r = [item[2] for item in final_accuracy_all]
     f = [item[3] for item in final_accuracy_all]
 
-    print(statistics.mean(p.tolist()))
-    print(statistics.mean(r.tolist()))
-    print(statistics.mean(f.tolist()))
+    print(statistics.mean(p))
+    print(statistics.mean(r))
+    print(statistics.mean(f))
     
     return final_accuracy_all
 
